@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,400;1,500;1,600&display=swap');
 *{
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+ 
 }
 
 body{
+  margin: 0;
+  padding: 0;
+  background-image: url(toa-heftiba-3xUnaShh5SQ-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
   font-family: 'Montserrat', Tahoma, Verdana, sans-serif;
 }
