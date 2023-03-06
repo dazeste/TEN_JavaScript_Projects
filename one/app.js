@@ -1,11 +1,11 @@
-
+const weeksElements= document.getElementById("weeks");
 const daysElements= document.getElementById("days");
 const hoursElements= document.getElementById("hours");
 const minElements= document.getElementById("min");
 const secElements= document.getElementById("sec");
 
 
-const holiday = "8 Mar 2023";
+const holiday = "19 Jun 2023";
 
 function countdown() {
   const newHolidayDate = new Date(holiday);
@@ -13,7 +13,8 @@ function countdown() {
 
   const totalSeconds = (newHolidayDate - currentDate) / 1000;
 
-  const days = Math.floor(totalSeconds / 3600 /24);
+  const weeks = Math.floor(totalSeconds / 3600 / 24 / 7) ;
+  const days = Math.floor(totalSeconds / 3600 /24) % 7;
   const hours = Math.floor(totalSeconds/ 3600) % 24;
   const min = Math.floor(totalSeconds / 60) % 60;
   const sec = Math.floor(totalSeconds) % 60;
@@ -21,7 +22,7 @@ function countdown() {
 
   // console.log(days, hours, min, sec);
 
- 
+  weeksElements.innerHTML = formatTime(weeks);
   daysElements.innerHTML = formatTime(days);
   hoursElements.innerHTML = formatTime(hours);
   minElements.innerHTML = formatTime(min);

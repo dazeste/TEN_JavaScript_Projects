@@ -8,6 +8,7 @@ body{
   margin: 0;
   padding: 0;
   background-image: url(toa-heftiba-3xUnaShh5SQ-unsplash.jpg);
+ color: #333;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,21 +21,21 @@ body{
   height: 100vh;
   font-family: 'Montserrat', Tahoma, Verdana, sans-serif;
 }
+
+
 h1{
   font-size: 4rem;
   margin-top:35rem;
   align-items: center;
   text-align: center;
-  
- 
-
 }
-
 
 .coundown-container{
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
+
+
 
 
 }
