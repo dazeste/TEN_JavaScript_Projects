@@ -36,6 +36,19 @@ ul{
   padding: 0;
   
 }
+ul li{
+  font-size: 1.1rem;
+  margin: 1rem 0;
+  font-weight:300;
+}
+
+/* input[type='radio']:after{
+  background-color: #34495e;
+}
+
+input[type='radio']:checked:after{
+  background-color: #34495e;
+} */
 
 button{
   background-color: #34495e;
