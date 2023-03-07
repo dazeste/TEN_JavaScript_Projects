@@ -6,7 +6,7 @@ const secElements= document.getElementById("sec");
 const endElements= document.getElementById("end");
 
 
-const holiday = "3 Mar 2023";
+const holiday = "7 Nov 2023";
 
 function countdown() {
   const newHolidayDate = new Date(holiday);
