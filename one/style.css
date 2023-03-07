@@ -65,7 +65,7 @@ justify-content: center;
 @media only screen and (max-width: 750px) {
   h1{
     font-size: 3.5rem; 
-    margin-top:50rem;
+    margin-top:30rem;
     text-align: center;
   }
   .big-text{
@@ -74,6 +74,6 @@ justify-content: center;
      line-height: 1;
      margin: 0 2rem;
    }
-  
+   
 
   }
