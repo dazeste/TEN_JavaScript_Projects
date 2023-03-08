@@ -52,6 +52,7 @@ loadQuiz();
 function loadQuiz(){
   const currQuizData =quizData[currQuestion];
   questionEl.innerText = currQuizData.question;
+  
   a_text.innerText = currQuizData.a;
   b_text.innerText = currQuizData.b;
   c_text.innerText = currQuizData.c;
