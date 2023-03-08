@@ -44,6 +44,7 @@ const a_text = document.getElementById("a_text");
 const b_text = document.getElementById("b_text");
 const c_text = document.getElementById("c_text");
 const d_text = document.getElementById("d_text");
+const submitBtn = document.getElementById("btn");
 
 let currQuestion = 0;
 
@@ -52,11 +53,16 @@ loadQuiz();
 function loadQuiz(){
   const currQuizData =quizData[currQuestion];
   questionEl.innerText = currQuizData.question;
-  
+
   a_text.innerText = currQuizData.a;
   b_text.innerText = currQuizData.b;
   c_text.innerText = currQuizData.c;
   d_text.innerText = currQuizData.d;
 
-  currQuestion++
+ 
 }
+
+
+submitBtn.addEventListener('click', () =>{
+  currQuestion++
+});
