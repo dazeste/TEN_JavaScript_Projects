@@ -62,6 +62,13 @@ function loadQuiz(){
  
 }
 
+function getSelected(){
+  const answers = document.querySelectorAll('answer');
+  answers.forEach(answer => {
+    console.log(answer.value);
+
+  });
+}
 
 submitBtn.addEventListener('click', () =>{
   currQuestion++
@@ -69,6 +76,7 @@ submitBtn.addEventListener('click', () =>{
   if(currQuestion < quizData.length){
     loadQuiz();
   }else{
+    //Show results
     alert('You finished your Quiz, Thank you!')
   }
   
