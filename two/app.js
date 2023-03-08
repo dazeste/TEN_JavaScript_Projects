@@ -39,16 +39,23 @@ const quizData = [
   }
 ]
 
-const question = document.getElementById("question");
+const questionEl = document.getElementById("question");
 const a_text = document.getElementById("a_text");
 const b_text = document.getElementById("b_text");
 const c_text = document.getElementById("c_text");
 const d_text = document.getElementById("d_text");
 
 let currQuestion = 0;
+
 loadQuiz();
 
 function loadQuiz(){
+  const currQuizData =quizData[currQuestion];
+  questionEl.innerText = currQuizData.question;
+  a_text.innerText = currQuizData.a;
+  b_text.innerText = currQuizData.b;
+  c_text.innerText = currQuizData.c;
+  d_text.innerText = currQuizData.d;
 
   currQuestion++
 }
