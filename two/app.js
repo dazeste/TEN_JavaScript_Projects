@@ -65,4 +65,11 @@ function loadQuiz(){
 
 submitBtn.addEventListener('click', () =>{
   currQuestion++
+
+  if(currQuestion < quizData.length){
+    loadQuiz();
+  }else{
+    alert('You finished your Quiz, Thank you!')
+  }
+  
 });
