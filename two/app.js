@@ -66,13 +66,15 @@ function getSelected(){
   const answers = document.querySelectorAll('.answer');
 
   answers.forEach(answer => {
-    console.log(answer.value);
+    console.log(answer.checked);
 
   });
 }
 
 submitBtn.addEventListener('click', () =>{
   currQuestion++
+
+  getSelected();
 
   // if(currQuestion < quizData.length){
   //   loadQuiz();
