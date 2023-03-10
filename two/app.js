@@ -63,7 +63,8 @@ function loadQuiz(){
 }
 
 function getSelected(){
-  const answers = document.querySelectorAll('answer');
+  const answers = document.querySelectorAll('.answer');
+
   answers.forEach(answer => {
     console.log(answer.value);
 
@@ -73,11 +74,11 @@ function getSelected(){
 submitBtn.addEventListener('click', () =>{
   currQuestion++
 
-  if(currQuestion < quizData.length){
-    loadQuiz();
-  }else{
-    //Show results
-    alert('You finished your Quiz, Thank you!')
-  }
+  // if(currQuestion < quizData.length){
+  //   loadQuiz();
+  // }else{
+  //   //Show results
+  //   alert('You finished your Quiz, Thank you!')
+  // }
   
 });
