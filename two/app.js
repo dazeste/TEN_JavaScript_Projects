@@ -47,6 +47,7 @@ const d_text = document.getElementById("d_text");
 const submitBtn = document.getElementById("btn");
 
 let currQuestion = 0;
+let answer = undefined;
 
 loadQuiz();
 
@@ -63,10 +64,13 @@ function loadQuiz(){
 }
 
 function getSelected(){
-  const answers = document.querySelectorAll('.answer');
+  const answersEls = document.querySelectorAll('.answer');
 
-  answers.forEach(answer => {
-    console.log(answer.checked);
+  answersEls.forEach(answerEl => {
+    // console.log(answer.checked);
+    if(answerEl.checked){
+      answer = answerEl.id;
+    }
 
   });
 }
