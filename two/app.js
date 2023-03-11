@@ -47,12 +47,12 @@ const d_text = document.getElementById("d_text");
 const submitBtn = document.getElementById("btn");
 
 let currQuestion = 0;
-let answer = undefined;
+let score = 0;
 
 loadQuiz();
 
 function loadQuiz(){
-  const currQuizData =quizData[currQuestion];
+  const currQuizData = quizData[currQuestion];
   questionEl.innerText = currQuizData.question;
 
   a_text.innerText = currQuizData.a;
@@ -69,22 +69,37 @@ function getSelected(){
   answersEls.forEach(answerEl => {
     // console.log(answer.checked);
     if(answerEl.checked){
-      answer = answerEl.id;
+      return answerEl.id;
     }
 
   });
+  return undefined;
+
+  }
 }
 
 submitBtn.addEventListener('click', () =>{
+  // check to see the answer
+  const answer = getSelected();
+
+  if(answer){    
+    if (answer===quizData[currQuestion])
+    {
+      
+    }
+
   currQuestion++
 
-  getSelected();
+  
+ 
+    if(currQuestion < quizData.length){
+      loadQuiz();
+    }else{
+      //Show results
+      alert('You finished your Quiz, Thank you!')
+    }
 
-  // if(currQuestion < quizData.length){
-  //   loadQuiz();
-  // }else{
-  //   //Show results
-  //   alert('You finished your Quiz, Thank you!')
-  // }
+  }
+
   
 });
