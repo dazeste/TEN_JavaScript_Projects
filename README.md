@@ -9,3 +9,4 @@
 
 # quiz_app
 <img src="./two/quiz.JPG" alt="quiz">
+<img src="./two/quiz_result.JPG" alt="quiz">
