@@ -47,6 +47,7 @@ const d_text = document.getElementById("d_text");
 const submitBtn = document.getElementById("btn");
 
 let currQuestion = 0;
+// let answer=undefined;
 let score = 0;
 
 loadQuiz();
@@ -73,33 +74,26 @@ function getSelected(){
     }
 
   });
-  return undefined;
-
-  }
+  return undefined;  
 }
+
 
 submitBtn.addEventListener('click', () =>{
   // check to see the answer
   const answer = getSelected();
 
-  if(answer){    
-    if (answer===quizData[currQuestion])
-    {
-      
+  if(answer){
+    if (answer === quizData[currQuestion].correct){
+      score++;
     }
-
-  currQuestion++
-
-  
- 
-    if(currQuestion < quizData.length){
+    currQuiz++;
+    if(currQuiz < currQuizData.length){
       loadQuiz();
     }else{
-      //Show results
-      alert('You finished your Quiz, Thank you!')
+      quiz.innerHTML =`<h2>You aswerd correctly at ${score}/${quizData.length} questions.</h2>`;
     }
-
-  }
-
+  }      
+    
+    
   
 });
