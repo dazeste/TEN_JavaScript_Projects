@@ -27,6 +27,9 @@ body{
 
 
 }
+h2{
+  text-align: center;
+}
 .quiz-header{
   padding: 4rem;
 }
@@ -47,14 +50,9 @@ ul li label{
   cursor: pointer;
 }
 
-/* input[type='radio']:after{
-  background-color: #34495e;
+input[name="answer"] {
+	accent-color: #34495e;
 }
-
-input[type='radio']:checked:after{
-  background-color: #34495e;
-} */
-
 button{
   background-color: #34495e;
   display: block;
