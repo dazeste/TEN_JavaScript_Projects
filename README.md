@@ -8,5 +8,7 @@
 
 
 # quiz_app
+<p>This app is a quiz app that tests your knowledge of literature</p>
 <img src="./two/quiz.JPG" alt="quiz">
+<p>end of the quiz you can see your results</p>
 <img src="./two/quiz_result.JPG" alt="quiz">
