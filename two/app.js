@@ -38,7 +38,8 @@ const quizData = [
     correct: 'b',
   }
 ]
-
+const answersEls = document.querySelectorAll('.answer');
+const quiz =document.getElementById('quiz');
 const questionEl = document.getElementById("question");
 const a_text = document.getElementById("a_text");
 const b_text = document.getElementById("b_text");
@@ -65,7 +66,7 @@ function loadQuiz(){
 }
 
 function getSelected(){
-  const answersEls = document.querySelectorAll('.answer');
+ let answer = undefined;
 
   answersEls.forEach(answerEl => {
     // console.log(answer.checked);
@@ -74,7 +75,13 @@ function getSelected(){
     }
 
   });
-  return undefined;  
+  return answer;  
+}
+
+function deselectedAnswer(){
+  answerEls.forEach((answerEl) =>{
+    answerEl.checked =false;
+  });
 }
 
 
@@ -86,6 +93,7 @@ submitBtn.addEventListener('click', () =>{
     if (answer === quizData[currQuestion].correct){
       score++;
     }
+    
     currQuiz++;
     if(currQuiz < currQuizData.length){
       loadQuiz();
