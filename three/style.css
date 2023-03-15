@@ -50,3 +50,13 @@ header button{
   list-style-type: none;
   padding: 0;
 }
+
+.fav-meals li{
+
+}
+.fav-meals li img{
+  border-radius: 50%;
+  object-fit: cover;
+  height: 100px;
+  width: 100px;
+}
