@@ -42,6 +42,11 @@ header button{
 
 }
 .fav-container{
-  display: flex;
+  text-align: center;
   padding: 1rem;
+}
+.fav-meals{
+  display: flex;
+  list-style-type: none;
+  padding: 0;
 }
