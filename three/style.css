@@ -45,7 +45,7 @@ header button{
 
 }
 .fav-container{
-  background-color: rgb(230, 238, 255);
+  /* background-color: rgb(230, 238, 255); */
   text-align: center;
   padding: 1rem;
 }
@@ -57,13 +57,15 @@ header button{
 
 .fav-meals li{
   /* background-color: #fff; */
+  width: 80px;
+  margin: 5px;
 
 }
 .fav-meals li img{
   border-radius: 50%;
   object-fit: cover;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
 }
 .fav-meals li span{
   font-size: 0.8rem;
