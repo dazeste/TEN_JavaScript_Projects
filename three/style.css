@@ -108,3 +108,12 @@ header button{
   justify-content: space-between;
   padding: 1rem;  
 }
+.meal-body h4{
+  margin: 0;
+
+}
+.meal-body button{
+  border: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+}
