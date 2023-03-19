@@ -80,11 +80,19 @@ header button{
 .meal{
   box-shadow: var(--shadow);
   border-radius: 3px;
-  margin: 1rem;
+  margin: 1.5rem;
   
 }
 
 .meal-header{
+  position: relative;
+
+  
+}
+.meal-header .random{
+  position: absolute;
+  top: 10px;
+  background-color: var(--white);
 
   
 }
