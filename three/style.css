@@ -56,7 +56,7 @@ header button{
 }
 .fav-meals{
   display: flex;
-  overflow: auto;
+  /* overflow: auto; */
   list-style-type: none;
   padding: 0;
 }
