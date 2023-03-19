@@ -81,25 +81,30 @@ header button{
   box-shadow: var(--shadow);
   border-radius: 3px;
   margin: 1.5rem;
+  overflow: hidden;
   
 }
 
 .meal-header{
-  position: relative;
-
-  
+  position: relative;  
 }
 .meal-header .random{
   position: absolute;
-  top: 10px;
+  top: 1rem;  
+  padding: 0.25rem 1rem;
   background-color: var(--white);
-
-  
+  border-top-right-radius:3px;
+  border-bottom-right-radius: 3px;  
 }
 .meal-header img{
-  
+  object-fit: cover;
+  height: 300px;
+  width: 100%;  
 }
 
 .meal-body{
-  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;  
 }
