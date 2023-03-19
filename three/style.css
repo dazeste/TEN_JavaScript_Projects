@@ -22,7 +22,7 @@ img{
   max-width: 100%;
 }
 .mobile-container{
-  background-color: #fff;
+  background-color: var(--white);
   box-shadow: var(--shadow);
   border-radius: 3px;
   overflow: hidden;
