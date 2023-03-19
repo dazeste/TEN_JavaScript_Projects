@@ -78,10 +78,14 @@ header button{
   font-size: 0.8rem;
 }
 .meal{
+  box-shadow: var(--shadow);
+  border-radius: 3px;
+  margin: 1rem;
   
 }
 
 .meal-header{
+
   
 }
 .meal-header img{
