@@ -15,9 +15,9 @@
 
 
 # three_recipes_app
-:curry: get random meals;
-:ramen: get meals by Id;
-:cake: get meals by search
+:curry: get random meals;<br>
+:ramen: get meals by Id;<br>
+:cake: get meals by search;
 
 <img src="./three/recipe.JPG" alt="veggies">
 <img src="" alt="">
