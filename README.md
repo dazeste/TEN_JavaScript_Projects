@@ -15,5 +15,5 @@
 
 
 # three_recipes_app
-<img src="" alt="">
+<img src="./three/recipe.JPG" alt="veggies">
 <img src="" alt="">
