@@ -15,7 +15,7 @@
 <img src="./two/quiz_result.JPG" alt="quiz">
 
 
-# :hamburger: three_recipes_app
+# :hamburger: three_recipes_app :sushi:
 :curry: get random meals;<br>
 :ramen: get meals by Id;<br>
 :cake: get meals by search;
