@@ -21,4 +21,4 @@
 :cake: get meals by search;
 
 <img src="./three/recipe.JPG" alt="veggies">
-<img src="" alt="">
+
