@@ -1,5 +1,5 @@
 # TEN_JavaScript_Projects
-# :watch: one_count_down_app
+# one_count_down_app
 
 <img src="./one/holiday.JPG" alt="holiday countdown">
 <p>This countdown app is perfect for keeping track of important dates and times, the app features a beautiful design that will make staying organized a breeze.</p>
