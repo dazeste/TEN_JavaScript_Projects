@@ -24,10 +24,17 @@
 
 # :steam_locomotive: four_passanger_counter_app
 <p>covered concept </p>
-<ul>
-<li>script tag</li>
-<li>variables</li>
 
-</ul>
+<p>:white_check_mark: script tag</p>
+<p>:white_check_mark: variables</p>
+<p>:white_check_mark: numbers</p>
+<p>:white_check_mark: strings</p>
+<p>:white_check_mark: console.log()</p>
+<p>:white_check_mark: functions</p>
+<p>:white_check_mark: the DOM</p>
+<p>:white_check_mark: getElementById()</p>
+<p>:white_check_mark: innerText</p>
+<p>:white_check_mark: textContent</p>
+
 <img src="./four/count.JPG" alt="count">
 <img src="./four/count2.JPG" alt="count_1">
