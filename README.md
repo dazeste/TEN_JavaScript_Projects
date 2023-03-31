@@ -23,7 +23,7 @@
 <img src="./three/recipe.JPG" alt="veggies">
 
 # :steam_locomotive: four_passanger_counter_app
-<p>covered concept </p>
+<p>covered concepts creating counter app </p>
 
 <p>:white_check_mark: script tag</p>
 <p>:white_check_mark: variables</p>
