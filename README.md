@@ -23,5 +23,11 @@
 <img src="./three/recipe.JPG" alt="veggies">
 
 # :steam_locomotive: four_passanger_counter_app
+<p>covered concept </p>
+<ul>
+<li>script tag</li>
+<li>variables</li>
+
+</ul>
 <img src="./four/count.JPG" alt="count">
 <img src="./four/count2.JPG" alt="count_1">
