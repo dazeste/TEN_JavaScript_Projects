@@ -10,7 +10,7 @@
 
 # :clipboard: quiz_app
 <p>This app is a quiz app that tests your knowledge of literature</p>
-<p>:white_check_mark: script tag</p>
+
 <p>:white_check_mark: variables</p>
 <p>:white_check_mark: numbers</p>
 <p>:white_check_mark: strings</p>
