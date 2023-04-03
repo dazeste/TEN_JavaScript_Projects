@@ -2,10 +2,9 @@ body{
   background: white;
   padding: 20px;
   font-family: Verdana, sans-serif;
-  display: flex;
   
- 
 }
+
 img{
   width: 200px;
   display: block;
