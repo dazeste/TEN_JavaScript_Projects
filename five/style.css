@@ -2,6 +2,8 @@ body{
   background: white;
   padding: 20px;
   font-family: Verdana, sans-serif;
+  display: flex;
+  
  
 }
 img{
@@ -19,5 +21,5 @@ button{
 }
 #error{
   font-weight: 400;
-  color:red;
+  color: pink;
 }
