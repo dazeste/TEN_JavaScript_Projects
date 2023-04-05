@@ -5,16 +5,20 @@ body{
   background-color: aliceblue;
   display:flex;
   align-items: center;
+  justify-content: center;
+  padding-top:100px;
   
 }
 .conatiner{
-  width: 650px;
-  background-color: pink;
-  padding: 10px;
+  width: 350px;
+  background-color: white;
+  padding: 30px 10px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: 2px 2px 14px lightgray;
+
 }
 img{
   width: 300px;
@@ -22,11 +26,12 @@ img{
  
 }
 button{
+  background-color: pink;
   padding: 10px 20px;  
-  border:1px solid darkgray;
+  border:1px solid white;
   font-size: 20px;
   width: 200px;
-  border-radius: 30px;
+  border-radius: 20px;
   cursor: pointer;
 }
 #error{
