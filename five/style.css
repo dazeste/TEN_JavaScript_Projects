@@ -35,6 +35,8 @@ button{
   cursor: pointer;
 }
 #error{
-  font-weight: 400;
-  color: pink;
+  font-weight: 500;
+  color:red;
+  padding:10px 20px  0 20px;
+  font-size: inherit;
 }
